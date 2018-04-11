@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>2D上下文</title>
+    <script>
+        var drawing  = document.getElemntById(drawing);
+        //确定浏览器支持
+        if(drawing.getContext)
+        {
+            var context=drawing.getContext("2d");
+             document.write(context);
+
+             
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>Canvas学习</h1><br><hr>
+    <canvas id="drawing" width="200" height="200" style="border:solid 1px;">这是一个画板</canvas>
+</body>
+</html>

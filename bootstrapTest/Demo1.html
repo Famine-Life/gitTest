@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap-4</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <script src="jquery-3.3.1.js" ></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js" ></script>
+
+<style>
+    body{
+        background-color: #fff;
+        padding-top:80px;
+    }
+    .container{background-color:rgb(28, 167, 167);}
+    .navbar{
+        background-color: antiquewhite;
+    }
+    .navbar a{
+        
+        font-size:30px;
+        }
+    .col-md-2{
+        background-color:#343a40;
+        border-radius:5px;
+    }
+    .col-md-2 h2{
+        color:#fff;
+    }
+</style>
+</head>
+<body> 
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">
+            <img src="" alt="你好">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavaltMarkup">
+            <div class="navbar-nav">
+                 <a href="#" class="nav-item nav-link active">首页</a>
+                 <a href="#" class="nav-item nav-link">技术</a>
+                 <a href="#" class="nav-item nav-link">相册</a>
+                 <a href="#" class="nav-item nav-link disabled">关于我</a>
+            </div>
+        </div>
+        <div class="navber">
+            <form class="form-inline">
+                <input type="search" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-2">
+            <h2>假装有标题</h2>
+            <div class="btn-group-vertical" aria-label="Basic example">
+                <button class="btn btn-secondary">第一</button>
+                <button class="btn btn-secondary">第二</button>
+                <button class="btn btn-secondary">第三</button>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="container-fluid bg-dark">
+                <div class="jumbotron">
+                    <h1 class="display-1">Hi man!</h1>
+                    <p class="lead">这里的字体有些不同...</p>
+                    <hr class="my-4">
+                    <p>this is a p!这货不是p标签这货不是p标签这这货不是p标签这货不是p标签这货不是p标签这货不是p标签这货不是p标签
+                        这货不是p标签这货不是p标签这货不是p标签这货不是p标签这货不是p标签这货不是p标签货不是p标签这货不是p标签</p>
+                    <p class="lead">
+                        <a href="" class="btn btn-primary btn-lg">GO</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-dark text-white">
+                <img src="images/eyu.jpg" alt="" class="card-img" alt="有图片.jpg" style="width:100%;height:250px;">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">这里是标题呀</h5>
+                    <p class="card-text">这里是正文呀</p>
+                    <p class="card-text text-muted">这里有一行小字</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-dark mb-3" style="width:20rem;">
+                <div class="card-body">
+                    <h5 class="card-title">据说要有标题</h5>
+                    <h6 class="card-subtitile text-muted">这里是副标题</h6>
+                    <p class="card-text">这里是卡片文本这里是卡片文本这里是卡片文本这里是卡片文本</p>
+                    <a href="#" class="card-link">链接</a>
+                    <a href="#" class="card-link">链接</a>
+                </div>
+            </div>
+            <div class="card" style="width:20rem;">
+                <img src="images/eyu.jpg" alt="Card image cap" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">卡片文本</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">First</li>
+                    <li class="list-group-item">Second</li>
+                    <li class="list-group-item">Three</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">链接</a>
+                    <a href="#" class="card-link">链接</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
